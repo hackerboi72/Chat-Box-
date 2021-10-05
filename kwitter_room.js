@@ -1,4 +1,3 @@
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
@@ -8,6 +7,7 @@ import { initializeApp } from "firebase/app";
 var  firebaseConfig = {
   apiKey: "AIzaSyA-BgM_M3cv-P0DWn96t_wdtZQ7r_BtZlc",
   authDomain: "chat-box-16dd6.firebaseapp.com",
+  databaseURL: "https://chat-box-16dd6-default-rtdb.firebaseio.com",
   projectId: "chat-box-16dd6",
   storageBucket: "chat-box-16dd6.appspot.com",
   messagingSenderId: "241827665908",
