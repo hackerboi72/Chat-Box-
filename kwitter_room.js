@@ -4,7 +4,7 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-var  firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyA-BgM_M3cv-P0DWn96t_wdtZQ7r_BtZlc",
   authDomain: "chat-box-16dd6.firebaseapp.com",
   databaseURL: "https://chat-box-16dd6-default-rtdb.firebaseio.com",
