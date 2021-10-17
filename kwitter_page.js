@@ -1,22 +1,17 @@
-// Your web app's Firebase configuration
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyD8bdZWjLJEmCcgl3yFo-GBph_RMLitkgo",
-  authDomain: "chat-box-d5bda.firebaseapp.com",
-  databaseURL: "https://chat-box-d5bda-default-rtdb.firebaseio.com",
-  projectId: "chat-box-d5bda",
-  storageBucket: "chat-box-d5bda.appspot.com",
-  messagingSenderId: "922185412767",
-  appId: "1:922185412767:web:6a2fc5a469451644e9b2aa"
-};
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+var firebaseConfig = {
+      apiKey: "AIzaSyD8bdZWjLJEmCcgl3yFo-GBph_RMLitkgo",
+      authDomain: "chat-box-d5bda.firebaseapp.com",
+      databaseURL: "https://chat-box-d5bda-default-rtdb.firebaseio.com",
+      projectId: "chat-box-d5bda",
+      storageBucket: "chat-box-d5bda.appspot.com",
+      messagingSenderId: "922185412767",
+      appId: "1:922185412767:web:6a2fc5a469451644e9b2aa"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
 
     room_name = localStorage.getItem("Roomname");
     user_name = localStorage.getItem("Username");
